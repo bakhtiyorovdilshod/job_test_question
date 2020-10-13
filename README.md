@@ -1,4 +1,4 @@
-# RITM UZ TEST SAVOLA
+# TEST SAVOLA :))
 
 
 #####test_1 || Shu modelga CRUD qlish kere `djangorestframework` ishlatib va test yozish kere
