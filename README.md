@@ -51,7 +51,7 @@ class FooView(APIView):
         return Response({"message":"HELLO ADMIN"})
         
     def put(self, request):
-    return Response({"message":"HELLO ADMIN"})
+        return Response({"message":"HELLO ADMIN"})
 ```
 
 #####test_5 || Shu serializerga `custom_obj` method field qilib qoshish kerak
