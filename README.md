@@ -46,6 +46,12 @@ from rest_framework.views import APIView, Response
 class FooView(APIView):
     def get(self, request):
         return Response({"message":"HELLO ADMIN"})
+        
+    def post(self, request):
+        return Response({"message":"HELLO ADMIN"})
+        
+    def put(self, request):
+    return Response({"message":"HELLO ADMIN"})
 ```
 
 #####test_5 || Shu serializerga `custom_obj` method field qilib qoshish kerak
