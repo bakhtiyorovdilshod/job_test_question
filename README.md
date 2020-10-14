@@ -21,7 +21,7 @@ class Product(models.Model):
     price = models.IntegerField(default=0)
 ```
 #####test_3 || Manga Productla qancha sotilganini soni kerak va nech puligi.
-`Order status finish` bolganlarini xisoblash kerak
+`Order status finish` bolganlarini xisoblash kerak `SubQuery` orqali
 ```python
 from django.db import models
 
