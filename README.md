@@ -36,7 +36,7 @@ class Order(models.Model):
     STATUS = ((NEW,NEW),(FINISH,FINISH))
     product = models.ForeignKey(Product,on_delete=models.CASCADE)
     count = models.IntegerField(default=1)
-    status = models.CharField(choices=STATUS, default=NEW)
+    status = models.CharField(choices=STATUS, default=NEW, max_length=25)
 ```
 
 #####test_4 || Manga shu view faqat kevotgan user admin bolsagina ishlasin
